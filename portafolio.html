@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Edgar Yael Colín Sánchez</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            background-color: #000;
+            color: #ff007f;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+        .fotojiji img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            border: 3px solid #ff007f;
+            box-shadow: 0 0 10px #ff007f;
+            margin-top: 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #ff007f;
+            box-shadow: 0 0 15px #ff007f;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .info {
+            text-align: center;
+        }
+        .imagen {
+            width: 760px;
+            height: 350px;
+            object-fit: cover;
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .project {
+            background: rgba(255, 0, 127, 0.2);
+            padding: 20px;
+            border: 1px solid #ff007f;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px #ff007f;
+            text-align: center;
+        }
+        .project button {
+            background-color: #ff007f;
+            border: none;
+            padding: 10px 20px;
+            color: #000;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 20px;
+        }
+        .project button:hover {
+            background-color: #ff4da6;
+        }
+        .infopersonal {
+            background: rgba(255, 0, 127, 0.2);
+            color: #ce1fce;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #ff007f;
+        }
+    </style>
+</head>
+<body>
+    <div class="fotojiji">
+        <img src="yael.jpg" alt="mi Foto jajaja">
+    </div>
+    <div class="container">
+        <div class="info">
+            <h1>Edgar Yael Colín Sánchez</h1>
+            <h3>Desarrollador & Fascinante de la Tecnología :D</h3>
+            <p class="infopersonal">Hola! Tengo 21 años, me gusta la programación, la tecnología y aprender de ella.</p>
+            <div class="projects">
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <img class="imagen" src="recetas.PNG" alt="Imagen de recetas">
+                    <h3>Página de Recetas</h3>
+                    <p>Una aplicación web diseñada para amantes de la cocina, donde los usuarios pueden explorar una amplia variedad de recetas categorizadas por tipo de comida. Incluye funciones para guardar recetas favoritas y agregar comentarios. Además, cuenta con un chatbot de IBM Watson que brinda recomendaciones personalizadas y responde preguntas relacionadas con ingredientes, preparación y tiempos de cocción. Ideal para quienes buscan inspiración en la cocina o desean mejorar sus habilidades culinarias.</p>
+                    <button onclick="window.location.href='https://chatbotyaelsanchez-git-main-yaelsanchzz10s-projects.vercel.app/index.html'">Visitar</button>
+                </div>
+                <div class="project">
+                    <img class="imagen" src="tareas.PNG" alt="Imagen de organizador">
+                    <h3>Página para Organizar Tareas</h3>
+                    <p>Un organizador de tareas intuitivo desarrollado para estudiantes y profesionales. Permite crear, editar y eliminar tareas, asignar fechas de vencimiento y establecer prioridades. Su interfaz minimalista facilita la gestión del tiempo y mejora la productividad. Además, incluye una sección de seguimiento de progreso, recordatorios automáticos y la opción de compartir tareas con otros usuarios. Una herramienta efectiva para cumplir objetivos diarios y a largo plazo.</p>
+                    <button onclick="window.location.href='https://yaelsanchez10.pythonanywhere.com/'">Visitar</button>
+                </div>
+                <div class="project">
+                    <img class="imagen" src="login.PNG" alt="Imagen de login">
+                    <h3>PAGINA CON INICIO DE SESION</h3>
+                    <p>Página cuyo principal objetivo es permitir el registro de usuarios para que puedan crear una cuenta personal e iniciar sesión de manera segura. Este sistema de autenticación garantiza que solo usuarios autorizados puedan acceder a las funciones y contenidos exclusivos de la plataforma.</p>
+                    <button onclick="window.location.href='https://loginrecetasys.vercel.app/'">Visitar</button>
+                </div>
+            </div>
+            <footer>
+                <p>Contacto: <a href="jaja.mp4" style="color: #ff007f; text-decoration: none;">gyayael@gmail.com</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
